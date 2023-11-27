@@ -105,7 +105,7 @@ export const searchKeyword = [
 export const snsLink = [
     {
         title: "github",
-        url: "https://github.com/webstoryboy",
+        url: "https://github.com/minseoBae/webs-youtube",
         icon: <AiFillGithub />
     },
     {
@@ -115,12 +115,12 @@ export const snsLink = [
     },
     {
         title: "codepen",
-        url: "https://codepen.io/webstoryboy",
+        url: "https://codepen.io/baeminseo",
         icon: <AiOutlineCodepen />
     },
     {
         title: "instagram",
-        url: "https://www.instagram.com/webstoryboy",
+        url: "https://www.instagram.com/",
         icon: <AiOutlineInstagram />
     },
 ]
