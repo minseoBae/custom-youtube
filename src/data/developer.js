@@ -1,7 +1,7 @@
 export const developerText = [
     {
-        img: "https://yt3.googleusercontent.com/JU6k565OVstxx_h_7TbzE1aNXKzcxKl33zjPV4p649pqsgS7E3vb0meX9DB1_D_KviDoc4xM=s176-c-k-c0x00ffffff-no-rj",
-        name: "webstoryboy",
+        img: "https://yt3.googleusercontent.com/O1pEhceIrP09eG4mcoH-VdwTzrvpSJr3uJacENwzSjmkZx53H0qB_6rpJQaun518sqVQ1kSu_A=s176-c-k-c0x00ffffff-no-rj",
+        name: "webstory boy",
         channelAddress: "https://www.youtube.com/@webstoryboy",
         channelId: "UCsvQSv7EeCMHyYb9ENKAJZw"
     },
