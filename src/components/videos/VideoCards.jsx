@@ -9,6 +9,7 @@ const VideoCards = ({ videos }) => {
                     <div className="video__thumb play__icon">
                         <Link to={`/video/${video.videoId}`}>
                             <img src={video.img} alt={videos.title} />
+                            <h4>{video.title}</h4>
                         </Link>
                     </div>
                     

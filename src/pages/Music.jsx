@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react'
 import Main from '../components/section/Main'
 
 import VideoCards from '../components/videos/VideoCards'
-import { gsapText } from '../data/gsap'
+import { musicText } from '../data/music'
 
-const Gsap = () => {
+const Music = () => {
     const [loading, setLoading] = useState(true); 
 
     useEffect(() => {
@@ -13,21 +13,21 @@ const Gsap = () => {
         }, 300);
     }, []);
 
-    const gsapPageClass = loading ? 'isLoading' : 'isLoaded';
+    const musicPageClass = loading ? 'isLoading' : 'isLoaded';
 
     return (
         <Main 
-            title = "GSAP 사이트"
-            description="GSAP 사이트 튜토리얼 강의입니다.">
+            title = "뮤직리스트 추천"
+            description="장르불문 제가 추천하는 여러 노래들 입니다.">
             
-            <section id='gsapPage' className={gsapPageClass}>
-                <h2>😎 창의적 사이트를 만들고 싶다면!</h2>
+            <section id='musicPage' className={musicPageClass}>
+                <h2>🤩 나의 뮤직리스트 추천!</h2>
                 <div className="video__inner">
-                    <VideoCards videos={gsapText} />
+                    <VideoCards videos={musicText} />
                 </div>
             </section>
         </Main>
     )
 }
 
-export default Gsap
+export default Music

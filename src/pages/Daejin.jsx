@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react'
 import Main from '../components/section/Main'
 
 import VideoCards from '../components/videos/VideoCards'
-import { gsapText } from '../data/gsap'
+import { daejinText } from '../data/daejin'
 
-const Gsap = () => {
+const Daejin = () => {
     const [loading, setLoading] = useState(true); 
 
     useEffect(() => {
@@ -13,21 +13,21 @@ const Gsap = () => {
         }, 300);
     }, []);
 
-    const gsapPageClass = loading ? 'isLoading' : 'isLoaded';
+    const daejinPageClass = loading ? 'isLoading' : 'isLoaded';
 
     return (
         <Main 
-            title = "GSAP 사이트"
-            description="GSAP 사이트 튜토리얼 강의입니다.">
+            title = "대진대학교 소개"
+            description="대진대학교  강의입니다.">
             
-            <section id='gsapPage' className={gsapPageClass}>
-                <h2>😎 창의적 사이트를 만들고 싶다면!</h2>
+            <section id='daejinPage' className={daejinPageClass}>
+                <h2>😊 대진대학교의 여러 정보를 알고 싶다면!</h2>
                 <div className="video__inner">
-                    <VideoCards videos={gsapText} />
+                    <VideoCards videos={daejinText} />
                 </div>
             </section>
         </Main>
     )
 }
 
-export default Gsap
+export default Daejin

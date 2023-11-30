@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const Gsap = () => {
     return (
         <section id='gsap'>
-            <h2>🤓 GSAP 패럴랙스 효과를 하고 싶다면!</h2>
+            <h2>😎 GSAP 패럴랙스 효과를 하고 싶다면!</h2>
             <div className='video__inner'>
                 {gsapText.map((video, key) => (
                     <div className="video" key={key}>

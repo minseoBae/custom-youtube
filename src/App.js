@@ -14,6 +14,8 @@ const Channel = lazy(() => import('./pages/Channel'));
 const Video = lazy(() => import('./pages/Video'));
 const Search = lazy(() => import('./pages/Search'));
 const Not = lazy(() => import('./pages/Not'));
+const Daejin = lazy(() => import('./pages/Daejin'));
+const Music = lazy(() => import('./pages/Music'));
 
 const App = () => {
     return (
@@ -28,6 +30,8 @@ const App = () => {
                     <Route path="/gsap" element={<Gsap />} />
                     <Route path="/port" element={<Port />} />
                     <Route path="/youtube" element={<Youtube />} />
+                    <Route path="/daejin" element={<Daejin />} />
+                    <Route path="/music" element={<Music />} />
                     <Route path='/channel/:channelId' element={<Channel />} />
                     <Route path='/video/:videoId' element={<Video />} />
                     <Route path='/search/:searchId' element={<Search />} />
