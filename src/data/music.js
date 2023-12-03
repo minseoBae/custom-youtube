@@ -14,10 +14,77 @@ import music13 from "../assets/img/music/music13.jpg";
 import music14 from "../assets/img/music/music14.jpg";
 import music15 from "../assets/img/music/music15.jpg";
 import music16 from "../assets/img/music/music16.jpg";
+import music17 from "../assets/img/music/music17.jpg";
+import music18 from "../assets/img/music/music18.jpg";
+import music19 from "../assets/img/music/music19.jpg";
+import music20 from "../assets/img/music/music20.jpg";
+import music21 from "../assets/img/music/music21.jpg";
+import music22 from "../assets/img/music/music22.jpg";
+import music23 from "../assets/img/music/music23.jpg";
+import music24 from "../assets/img/music/music24.jpg";
 
 
+export const excitingText = [
+    {
+        title: "Kenshi Yonezu(요네즈 켄시) - LADY",
+        img: music05,
+        author: "Kenshi Yonezu",
+        videoId: "DdF-u3fe5pg",
+        date: "2023.04.05",
+        channelId: "UCUCeZaZeJbEYAAzvMgrKOPQ",
+    }, {
+        title: "Kenshi Yonezu(요네즈 켄시) - Lemon",
+        img: music06,
+        author: "Kenshi Yonezu",
+        videoId: "SX_ViT4Ra7k",
+        date: "2018.2.27",
+        channelId: "UCUCeZaZeJbEYAAzvMgrKOPQ",
+    }, {
+        title: "Kenshi Yonezu(요네즈 켄시) - KICK BACK",
+        img: music07,
+        author: "Kenshi Yonezu",
+        videoId: "HSNWJbkIsmo",
+        date: "2021.10.27",
+        channelId: "UCUCeZaZeJbEYAAzvMgrKOPQ",
+    }, {
+        title: "Kenshi Yonezu(요네즈 켄시) - Uchiagehanabi",
+        img: music08,
+        author: "Kenshi Yonezu",
+        videoId: "aml2a_5vptY",
+        date: "2021.08.10",
+        channelId: "UCUCeZaZeJbEYAAzvMgrKOPQ",
+    }, {
+        title: "DAY6(데이식스) - 한 페이지가 될 수 있게",
+        img: music13,
+        author: "DAY6(데이식스)",
+        videoId: "vnS_jn2uibs",
+        date: "2017.07.24",
+        channelId: "UCp-pqXsizklX3ZHvLxXyhxw",
+    }, {
+        title: "DAY6(데이식스) - 예뻤어",
+        img: music14,
+        author: "DAY6(데이식스)",
+        videoId: "BS7tz2rAOSA",
+        date: "2017.07.25",
+        channelId: "UCp-pqXsizklX3ZHvLxXyhxw",
+    }, {
+        title: "DAY6(데이식스) - Hey(있잖아)",
+        img: music15,
+        author: "DAY6(데이식스)",
+        videoId: "DyteqCHmChw",
+        date: "2022.04.20",
+        channelId: "UCp-pqXsizklX3ZHvLxXyhxw",
+    }, {
+        title: "DAY6(데이식스) - Zombie",
+        img: music16,
+        author: "DAY6(데이식스)",
+        videoId: "k8gx-C7GCGU",
+        date: "2020.05.20",
+        channelId: "UCp-pqXsizklX3ZHvLxXyhxw",
+    }
+]
 
-export const musicText = [
+export const sentiText = [
     {
         title: "Nerd Connection(너드커넥션) - 좋은 밤 좋은 꿈",
         img: music01,
@@ -47,34 +114,6 @@ export const musicText = [
         date: "2021.10.27",
         channelId: "UCgI0yyuYZGo2iqlBk-Rn8YQ",
     }, {
-        title: "Kenshi Yonezu(요네즈 켄시) - LADY",
-        img: music05,
-        author: "Kenshi Yonezu",
-        videoId: "DdF-u3fe5pg",
-        date: "2023.04.05",
-        channelId: "UCUCeZaZeJbEYAAzvMgrKOPQ",
-    }, {
-        title: "Kenshi Yonezu(요네즈 켄시) - Lemon",
-        img: music06,
-        author: "Kenshi Yonezu",
-        videoId: "SX_ViT4Ra7k",
-        date: "2018.2.27",
-        channelId: "UCUCeZaZeJbEYAAzvMgrKOPQ",
-    }, {
-        title: "Kenshi Yonezu(요네즈 켄시) - KICK BACK",
-        img: music07,
-        author: "Kenshi Yonezu",
-        videoId: "HSNWJbkIsmo",
-        date: "2021.10.27",
-        channelId: "UCUCeZaZeJbEYAAzvMgrKOPQ",
-    }, {
-        title: "Kenshi Yonezu(요네즈 켄시) - Uchiagehanabi",
-        img: music08,
-        author: "Kenshi Yonezu",
-        videoId: "aml2a_5vptY",
-        date: "2021.08.10",
-        channelId: "UCUCeZaZeJbEYAAzvMgrKOPQ",
-    }, {
         title: "백아 - 우주선",
         img: music09,
         author: "백아",
@@ -102,33 +141,65 @@ export const musicText = [
         videoId: "OlXr5YD-MWA",
         date: "2022.04.20",
         channelId: "UC9dIQRHQwB6cvfymHRvJ7mA",
+    }
+]
+
+export const christmasText = [
+    {
+        title: "IU(아이유) - 미리 메리 크리스마스 (feat.천둥 of MBLAQ)",
+        img: music17,
+        author: "IU",
+        videoId: "w14rSMl35ro",
+        date: "2020.05.28",
+        channelId: "UC3SyT4_WLHzN7JmHQwKQZww"
     }, {
-        title: "DAY6(데이식스) - 한 페이지가 될 수 있게",
-        img: music13,
-        author: "DAY6(데이식스)",
-        videoId: "vnS_jn2uibs",
-        date: "2017.07.24",
-        channelId: "UCp-pqXsizklX3ZHvLxXyhxw",
+        title: "B1A4 - 크리스마스잖아요",
+        img: music18,
+        author: "B1A4",
+        videoId: "hOFzQjdFMr8",
+        date: "2020.1.29",
+        channelId: "UCDBLl8TPgGzAzUGaqbpwAZA"
     }, {
-        title: "DAY6(데이식스) - 예뻤어",
-        img: music14,
-        author: "DAY6(데이식스)",
-        videoId: "BS7tz2rAOSA",
-        date: "2017.07.25",
-        channelId: "UCp-pqXsizklX3ZHvLxXyhxw",
+        title: "Lee Mujin(이무진) - 눈이 오잖아(Feat.Heize(헤이즈)",
+        img: music19,
+        author: "이무진",
+        videoId: "YGsBe3H7QGs",
+        date: "2020.1.29",
+        channelId: "UC10MdW5Ee6ypd9W0NxNbT3g"
     }, {
-        title: "DAY6(데이식스) - Hey(있잖아)",
-        img: music15,
-        author: "DAY6(데이식스)",
-        videoId: "DyteqCHmChw",
-        date: "2022.04.20",
-        channelId: "UCp-pqXsizklX3ZHvLxXyhxw",
+        title: "Girls' Generation-TTS(소녀시대-태티서) - Dear Santa",
+        img: music20,
+        author: "Girls' Generation-TTS",
+        videoId: "CL34w0xql7s",
+        date: "2020.1.29",
+        channelId: "UCPENYtHg4Xhmm6oX8zaQA7Q"
     }, {
-        title: "DAY6(데이식스) - Zombie",
-        img: music16,
-        author: "DAY6(데이식스)",
-        videoId: "k8gx-C7GCGU",
-        date: "2020.05.20",
-        channelId: "UCp-pqXsizklX3ZHvLxXyhxw",
+        title: "태연(TAEYEON) - The Magic of Christmas Time",
+        img: music21,
+        author: "TAEYEON",
+        videoId: "gbZMRPcZ3QY",
+        date: "2020.1.29",
+        channelId: "UCFPI8MI3zmzTlV4W-oSy-Ig"
+    }, {
+        title: "엑소(EXO) - 첫 눈(The First Snow)",
+        img: music22,
+        author: "엑소(EXO)",
+        videoId: "h0b4nw7NDhA",
+        date: "2020.1.29",
+        channelId: "UCzCedBCSSltI1TFd3bKyN6g"
+    }, {
+        title: "성시경, 박효신, 이석훈, 서인국, VIXX (빅스) - 크리스마스니까",
+        img: music23,
+        author: "성시경, 박효신, 이석훈, 서인국, VIXX (빅스)",
+        videoId: "JkRKxxLiDNI",
+        date: "2020.1.29",
+        channelId: "@Jellyfishenter"
+    }, {
+        title: "다비치 - 매일 크리스마스(Everyday Christmas)",
+        img: music24,
+        author: "다비치",
+        videoId: "UKmzMaAtzoE",
+        date: "2020.1.29",
+        channelId: "UCwZMmIVr07VLAfNcuqg9LZA"
     }, 
 ]

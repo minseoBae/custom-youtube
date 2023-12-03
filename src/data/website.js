@@ -21,7 +21,7 @@ import website20 from "../assets/img/site/site20.jpg";
 import website21 from "../assets/img/site/site21.jpg";
 import website22 from "../assets/img/site/site22.jpg";
 
-export const websiteText = [
+export const figmaText = [
     {
         title: "01. 웹표준 사이트 만들기 : 디자인 : 헤더 유형01 / 피그마(Figma)로 작업하기 / 웹스토리보이",
         img: website01,
@@ -85,7 +85,10 @@ export const websiteText = [
         videoId: "2CPRqp21mWM",
         date: "2023.09.09",
         channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
+    }
+]
+export const layoutText = [
+    {
         title: "10. 웹표준 사이트 만들기 : 레이아웃 : 레이아웃 유형01 / 홈페이지 만들기 / 웹스토리보이",
         img: website10,
         author: "webstoryboy",
@@ -120,7 +123,10 @@ export const websiteText = [
         videoId: "MFGsZYECt0Q",
         date: "2023.09.09",
         channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
+    }
+]
+export const webText = [
+    {
         title: "15. 웹표준 사이트 만들기 : 코딩 : 헤더 유형01 / 웹사이트 만들기 / 웹퍼블리셔 / 포트폴리오",
         img: website15,
         author: "webstoryboy",

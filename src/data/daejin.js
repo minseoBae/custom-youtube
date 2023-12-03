@@ -78,7 +78,10 @@ export const daejinText = [
         videoId: "lcyY3Tda1QU",
         date: "2021.07.19",
         channelId: "UCO6jUDZQMgwtP5ZzHNWGttw",
-    }, {
+    }
+]
+export const departmentText = [
+    {
         title: "🔬대진대학교 생명과학전공 학과체험 영상🔬",
         img: daejin09,
         author: "daejinuniversity",
