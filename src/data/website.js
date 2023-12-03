@@ -191,3 +191,5 @@ export const webText = [
         channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
     }
 ]
+
+export const websiteTexts = [...figmaText, ...layoutText, ...webText];

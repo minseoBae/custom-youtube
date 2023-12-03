@@ -203,3 +203,5 @@ export const christmasText = [
         channelId: "UCwZMmIVr07VLAfNcuqg9LZA"
     }, 
 ]
+
+export const musicTexts = [...christmasText, ...excitingText, ...sentiText];

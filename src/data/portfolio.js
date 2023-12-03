@@ -42,7 +42,7 @@ import port38 from "../assets/img/port/port-next08.jpg";
 import port39 from "../assets/img/port/port-next09.jpg";
 import port40 from "../assets/img/port/port-next10.jpg";
 
-export const portfolioText = [
+export const ViteText = [
     {
         title: "01. 다양한 프레임워크로 구축하는 포트폴리오 사이트 개발 : Vite : 셋팅하기 | 웹스토리보이 | 포트폴리오",
         img: port01,
@@ -113,7 +113,10 @@ export const portfolioText = [
         videoId: "ePvRxd2d4Ss",
         date: "2023.09.09",
         channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
+    }
+]
+export const ReactText = [
+    {
         title: "11. 다양한 프레임워크로 구축하는 포트폴리오 사이트 개발 : React : 셋팅하기 | 프레임워크 | 리액트",
         img: port11,
         author: "webstoryboy",
@@ -183,7 +186,10 @@ export const portfolioText = [
         videoId: "0lCuUTt0qPs",
         date: "2023.09.09",
         channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
+    }
+]
+export const VueText = [
+    {
         title: "21. 다양한 프레임워크로 구축하는 포트폴리오 사이트 개발 : Vue : 셋팅하기 | 포트폴리오 | vue.js",
         img: port21,
         author: "webstoryboy",
@@ -253,7 +259,10 @@ export const portfolioText = [
         videoId: "jahFUTbWOM8",
         date: "2023.09.09",
         channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
+    }
+]
+export const NextText = [
+    {
         title: "31. 다양한 프레임워크로 구축하는 포트폴리오 사이트 개발 : Next : 셋팅하기 | 포트폴리오 | Next.js",
         img: port31,
         author: "webstoryboy",
@@ -323,5 +332,7 @@ export const portfolioText = [
         videoId: "UPltdWsp_Xo",
         date: "2023.09.09",
         channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },
+    }
 ]
+
+export const portfolioTexts = [...ViteText, ...ReactText, ...VueText, ...NextText];

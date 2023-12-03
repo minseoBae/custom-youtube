@@ -22,6 +22,7 @@ const Music = () => {
             
             <section id='musicPage' className={musicPageClass}>
                 <h1>🤩 장르별 뮤직리스트 추천!</h1>
+                <br/>
                 <h2>🥳 언제 들어도 신나는 뮤직! </h2>
                 <div className="video__inner">
                     <VideoCards videos={excitingText} />

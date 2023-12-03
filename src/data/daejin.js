@@ -182,3 +182,5 @@ export const departmentText = [
         channelId: "UCO6jUDZQMgwtP5ZzHNWGttw",
     } 
 ]
+
+export const daejinTexts = [...daejinText, ...departmentText]

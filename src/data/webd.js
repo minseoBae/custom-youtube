@@ -38,7 +38,7 @@ import webd37 from "../assets/img/webd/webd37.jpg";
 import webd38 from "../assets/img/webd/webd38.jpg";
 import webd39 from "../assets/img/webd/webd39.jpg";
 
-export const webdText = [
+export const AText = [
     {
         title: "웹디자인기능사 2023년 실기 강의 : 레이아웃 유형(A-1) | 웹스토리보이 | 2023 웹디기",
         img: webd01,
@@ -67,7 +67,10 @@ export const webdText = [
         videoId: "3XQMhbcEH88",
         date: "2023.09.09",
         channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
+    }
+]
+export const BText = [
+    {
         title: "웹디자인기능사 2023년 실기 강의 : 레이아웃 유형(B-1) | 웹스토리보이 | 웹디자인기능사 무료로 합격하기",
         img: webd05,
         author: "webstoryboy",
@@ -95,7 +98,10 @@ export const webdText = [
         videoId: "rlB7s-hJ398",
         date: "2023.09.09",
         channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
+    }
+]
+export const CText = [
+        {
         title: "웹디자인기능사 2023년 실기 강의 : 레이아웃 유형(C-1) | 웹스토리보이 | 웹디자인기능사 실기",
         img: webd09,
         author: "webstoryboy",
@@ -123,7 +129,10 @@ export const webdText = [
         videoId: "ojTAbAPWVPo",
         date: "2023.09.09",
         channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
+    }
+]
+export const DText = [
+    {
         title: "웹디자인기능사 2023년 실기 강의 : 레이아웃 유형(D-1) | 웹스토리보이 | 웹디자인기능사 실기 포토샵",
         img: webd13,
         author: "webstoryboy",
@@ -151,7 +160,10 @@ export const webdText = [
         videoId: "75MguOwcKHE",
         date: "2023.09.09",
         channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
+    }
+]
+export const EText = [
+    {
         title: "웹디자인기능사 2023년 실기 강의 : 레이아웃 유형(E-1) | 웹스토리보이 | 웹디자인기능사 실기 d유형",
         img: webd17,
         author: "webstoryboy",
@@ -179,7 +191,10 @@ export const webdText = [
         videoId: "fFpUdBY7r4s",
         date: "2023.09.09",
         channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
+    }
+]
+export const MText = [
+    {
         title: "웹디자인기능사 2023년 실기 강의 : 메뉴 가로 유형(M-1) | 웹스토리보이 | 메뉴 제이쿼리",
         img: webd21,
         author: "webstoryboy",
@@ -221,7 +236,10 @@ export const webdText = [
         videoId: "0ns-3YaKnCw",
         date: "2023.09.09",
         channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
+    }
+]
+export const SText = [
+    {
         title: "웹디자인기능사 2023년 실기 강의 : 슬라이드 유형(S-1) | 웹스토리보이 | 이미지 슬라이드",
         img: webd27,
         author: "webstoryboy",
@@ -263,7 +281,10 @@ export const webdText = [
         videoId: "PARnjHoyofk",
         date: "2023.09.09",
         channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
+    }
+]
+export const otherText = [
+    {
         title: "웹디자인기능사 2023년 실기 강의 : 탭메뉴 유형(T-1) | 웹스토리보이 | 탭 메뉴 스크립트",
         img: webd33,
         author: "webstoryboy",
@@ -312,5 +333,8 @@ export const webdText = [
         videoId: "IkJXy4zpQUM",
         date: "2023.09.09",
         channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },
+    }
 ]
+
+export const webdTexts = [...AText, ...BText, ...CText, ...DText, 
+    ...EText, ...MText, ...SText, ...otherText];

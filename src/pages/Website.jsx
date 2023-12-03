@@ -22,6 +22,7 @@ const Website = () => {
             
             <section id='websitePage' className={websitePageClass}>
                 <h1>😉 웹사이트의 기초는 이 강의로~</h1>
+                <br/>
                 <h2>🎨 Figma를 활용한 디자인 설계</h2>
                 <div className="video__inner">
                     <VideoCards videos={figmaText} />
